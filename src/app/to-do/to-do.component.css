@@ -1,0 +1,12 @@
+.strikethrough {
+    text-decoration: overline;
+}
+
+
+.completed {
+    border-radius: 4px;
+    padding: 3px;
+    color: #ff69b4;
+    border: 1px solid #ff69b4;
+    cursor: pointer;
+}
