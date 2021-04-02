@@ -2,4 +2,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    background-color: #ff69b4;
+    background-image: linear-gradient(to right, #ff69b4, #ff0000);
 }
