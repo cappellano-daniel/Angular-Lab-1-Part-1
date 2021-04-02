@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 
 * {
     padding: 0;
@@ -6,52 +6,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
     min-height: 100vh;
     background-color: #ff69b4;
     background-image: linear-gradient(to right, #ff69b4, #ff0000);
-}
-
-#gradient {
-    overflow: hidden;
-}
-
-#form {
-    position: absolute;
-    left: 50%;
-    top: 5em;
-    transform: translateX(-50%);
-    width: 60%;
-    border: 1px solid red;
-    border-radius: 3px;
-    background-color: #eee;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#form-content {
-    margin: 1em;
-}
-
-#inputButton {
-    width: 100%;
-    margin-top: 1em;
-   
-}
-
-.inputs {
-    width: 100%;
-}
-
-#addButton {
-    background-color: #ff1493;
-    border: #ff1493;
-    color: #eee;
-    height: 1.5em;
-    width: 100%;
-    margin-top: 2px;
-    cursor: pointer;
-}
-
-.strikethrough {
-    text-decoration: overline;
 }
