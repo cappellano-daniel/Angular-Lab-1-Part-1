@@ -16,6 +16,12 @@
     transform: translateX(-50%);
 }
 
+.inputs {
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 3px;
+}
+
 ol {
     padding: 0;
     display: flex;
@@ -34,17 +40,30 @@ li {
 li .delete-button {
     position: absolute;
     right: 1em;
+    border: none;
+    cursor: pointer;
+    color: red;
+}
+
+li p {
+    margin-left: 1em;
 }
 
 li .complete-button {
     margin-right: 1em;
+    margin-left: 1em;
+    border: 1px solid #ff1493;
+    border-radius: 5px;
+    color: #ff1493;
+    cursor: pointer;
+
 }
 
 #add-button {
     background-color: #ff1493;
     border: #ff1493;
     color: #eee;
-    height: 1.5em;
+    height: 2em;
     margin-top: 2px;
     cursor: pointer;
 }

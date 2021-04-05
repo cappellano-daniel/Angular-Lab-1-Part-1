@@ -14,6 +14,7 @@ export class ToDoComponent implements OnInit {
     {task: 'pay a bill', completed: true},
     {task: 'do laundry', completed: false}
   ]
+  searchText: string | null = null;
 
   constructor() { }
 
